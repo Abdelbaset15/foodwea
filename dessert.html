@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dessert</title>
+</head>
+<body>
+
+    <div class="dessert_page">
+        <div> <a href="index.html">&#8612;</a> <h1> recipes </h1></div>
+        <div class="dessert_page_parent">
+            <div> <div  onclick="hidden_p()" ondblclick="show_p()"><img src="extra/ice cream.jpg" width="200px" height="200px"> <h2>ice cream</h2> </div> <p id="dessert_p1">1-Stir milk, cream, and sugar in a saucepan over low heat until sugar has dissolved. Heat just until the mixture is hot and a small ring of foam appears around the edge. <br>
+2-Transfer cream mixture to a pourable container such as a large measuring cup. Stir in vanilla extract and chill mix thoroughly, at least 2 hours. (Overnight is best.) <br>
+
+3-Pour cold ice cream mix into an ice cream maker, turn on the machine, and churn according to manufacturer's directions, 20 to 25 minutes. <br>
+
+4-When ice cream is softly frozen, serve immediately or place a piece of plastic wrap directly on the ice cream and place in the freezer to ripen, 2 to 3 hours.
+
+</p></div>
+            <div> <div onclick="hidden_p2()" ondblclick="show_p2()"><img src="extra/cake.jpg" width="200px" height="200px"> <h2>cake</h2> </div> <p id="dessert_p2"> 1-First begin by making your frosting: Add coconut cream, chocolate chips, and a pinch of salt to a small pot and place over low heat. Whisk until melted. Transfer to a bowl, cover with plastic wrap and place in the refrigerator to harden for 6 hours or until hard. Overnight is best! <br>
+                2-Preheat the oven to 350 degrees F (175 degrees C). Line the bottom of 3 round cake pans with parchment paper rounds. Spray parchment paper and side of pan with nonstick cooking spray (otherwise cake is likely to stick). <br>                
+                3-In a large bowl, mix together melted and cooled coconut oil, coconut sugar, eggs, vanilla, and apple cider vinegar with an electric mixer until smooth. Add Almond Breeze Unsweetened Vanilla Almondmilk and beat once more until mixture is well incorporated. <br>
+                4-In a separate bowl, whisk Blue Diamond Almond Flour, cocoa powder, coconut flour, baking soda, and 1/2 teaspoon salt together. Add the dry ingredients to the wet ingredients and mix well. Mixture will be on the thicker side. Divide batter evenly between pans and spread out with a spatula to smooth the tops. <br>
+                5-Bake in the preheated oven until a tester comes out clean or with just a few crumbs attached, rotating the pans halfway through baking, 20 to 30 minutes. <br>
+                6-Let cake cool in the pan for 15 minutes then transfer to the fridge to finish cooling completely. Allow cake to cool in the fridge for at least 1 hour before removing from the pan and frosting. The cake should be room temperature when you frost it. This is very important. Cake can be made a day ahead if you’d like! <br>
+                7-Finish making your frosting: Scoop the hardened chocolate coconut cream frosting mixture into a large bowl. Use a hand mixer or an electric mixer to beat frosting until peaks form and it looks nice, fluffy and creamy. Use immediately! <br>
+                8-Layer cake, using about 1/3 to 1/2 cup frosting between each layer, then frost the top and sides with remaining frosting. </p></div>
+        </div>
+    </div>
+
+    <script>
+        `use strict`
+
+        const show_p = function(){
+            dessert_p1.style.display='flex';
+ 
+        }
+
+        const hidden_p = function(){
+            dessert_p1.style.display='none';
+        }
+
+        const show_p2 = function(){
+            dessert_p2.style.display='flex';
+ 
+        }
+
+        const hidden_p2 = function(){
+            dessert_p2.style.display='none';
+        }
+
+        
+
+    </script>
+</body>
+</html>

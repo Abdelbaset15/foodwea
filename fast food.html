@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>fast food</title>
+</head>
+<body>
+
+    <div class="dessert_page">
+        <div> <a href="index.html">&#8612;</a> <h1> recipes </h1></div>
+        <div class="dessert_page_parent">
+            <div> <div  onclick="hidden_p()" ondblclick="show_p()"><img src="extra/pizza.jpg" width="200px" height="200px"> <h2>pizza</h2> </div> <p id="dessert_p1">1-Preheat the grill for medium-high heat and lightly oil the grate. Preheat the oven to 425 degrees F (220 degrees C).
+                Toss bell pepper and red onion with Italian dressing in a bowl. <br> 2-Grill vegetables until tender with a bite, 5 to 8 minutes, turning occasionally. Allow to cool slightly, then cut peppers into thin strips; cut onions into 3/4-inch pieces. <br>
+                
+                3-Place pita on the grill until grill marks form, 30 seconds to 2 minutes; turn, and grill the other side until grill marks form, 30 seconds to 2 minutes. <br>
+                
+                4-Place pita on a sheet pan. Spread one side of pita with olive oil and pizza sauce. Scatter peppers, onion, mushrooms, and black olives over pita, and sprinkle with mozzarella cheese. <br>
+                
+                5-Bake in the preheated oven until cheese melts, about 5 minutes.
+                
+                
+</p></div>
+            <div> <div onclick="hidden_p2()" ondblclick="show_p2()"><img src="extra/burger.jpg" width="200px" height="200px"> <h2>burger</h2> </div> <p id="dessert_p2"> 1-Gather all ingredients.
+
+                All ingredients gathered to make the juiciest hamburger 
+                DOTDASH MEREDITH FOOD STUDIOS
+                Preheat a grill for high heat. <br>
+                
+                2-Mix the ground beef, egg, bread crumbs, evaporated milk, Worcestershire sauce, cayenne pepper, and garlic in a large bowl using your hands. <br>
+                
+                3-All ingredients mixed together with hands.
+                DOTDASH MEREDITH FOOD STUDIOS
+                Form the mixture into 8 hamburger patties. <br>
+                
+                4-Mixture formed into 8 patties.
+                DOTDASH MEREDITH FOOD STUDIOS
+                Lightly oil the grill grate. Grill patties until browned and no longer pink, about 5 minutes per side.
+                
+                 </p></div>
+        </div>
+    </div>
+
+    <script>
+        `use strict`
+
+        const show_p = function(){
+            dessert_p1.style.display='flex';
+ 
+        }
+
+        const hidden_p = function(){
+            dessert_p1.style.display='none';
+        }
+
+        const show_p2 = function(){
+            dessert_p2.style.display='flex';
+ 
+        }
+
+        const hidden_p2 = function(){
+            dessert_p2.style.display='none';
+        }
+
+        
+
+    </script>
+</body>
+</html>
